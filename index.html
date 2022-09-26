@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta
+		http-equiv="X-UA-Compatible"
+		content="IE=edge"
+	>
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1.0"
+	>
+	<title>Document</title>
+</head>
+
+<body>
+	<audio></audio>
+	<button>PLAY</button>
+	<script>
+		const audio = document.querySelector('audio');
+		const button = document.querySelector('button');
+		audio.src = 'https://github.com/Nevitones/digital-alphabet-game/blob/master/a.mp3?raw=true';
+
+		button.addEventListener('click', () => {
+			audio.play();
+		});
+	</script>
+</body>
+
+</html>
